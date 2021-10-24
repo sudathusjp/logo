@@ -6,12 +6,12 @@ const Homedesignlogosection = () => {
         <div className="px-10 py-32 md:px-40 bg-white">
             <section>
                 <h1 className="text-gray-700 font-bold text-3xl text-center font-Poppins">
-                Design your Dream logo here
+                Design your Dream logo hereEEEEEEE
                 </h1>
             </section>
             <section>
                 <form>
-                <div className="flex md:px-80 py-10">
+                <div className="flex md:px-20 py-10">
                 <input 
                 type="text" 
                 placeholder="Enter your company name"
