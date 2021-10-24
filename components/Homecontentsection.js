@@ -10,7 +10,7 @@ const Homecontentsection = () => {
             <div className="md:px-32 py-10 overflow-hidden mx:w-auto md:w-2/2">
             <section className="md:flex">
                 <div className="md:w-1/2 px-10 py-10">
-                <img src="/images/slider/1.png" />
+                <img src="/images/slider/concept.png" />
                 </div>
 
                 <div className="md:w-1/2 py-2 pl-10 pr-10">
@@ -38,7 +38,7 @@ const Homecontentsection = () => {
                 </div>
 
                 <div className="md:w-1/2 px-10 py-10">
-                <img src="/images/slider/3.png" />
+                <img src="/images/slider/development.png" />
                 </div>            
             </section>        
             </div>
@@ -47,7 +47,7 @@ const Homecontentsection = () => {
             <div className="md:px-32 overflow-hidden mx:w-auto md:w-2/2">
             <section className="md:flex">
                 <div className="md:w-1/2 px-10 py-10">
-                <img src="/images/slider/2.png" />
+                <img src="/images/slider/mediakitdesigns.png" />
                 </div> 
 
                 <div className="md:w-1/2 py-10 pl-10 pr-10">
@@ -75,7 +75,7 @@ const Homecontentsection = () => {
                 </div>
 
                 <div className="md:w-1/2 px-10 py-10">
-                <img src="/images/slider/4.png" />
+                <img src="/images/slider/Premiumdesign.png" />
                 </div>            
             </section>        
             </div>
