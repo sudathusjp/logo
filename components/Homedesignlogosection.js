@@ -6,7 +6,7 @@ const Homedesignlogosection = () => {
         <div className="px-10 py-32 md:px-40 bg-white">
             <section>
                 <h1 className="text-gray-700 font-bold text-3xl text-center font-Poppins">
-                Design your Dream logo hereEEEEEEE
+                Design your Dream logo here
                 </h1>
             </section>
             <section>
