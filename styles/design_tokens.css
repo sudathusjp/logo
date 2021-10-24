@@ -6,10 +6,10 @@
 
 .industry-card{
     background-color: #5022B8;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
     font-weight: 600;
     border-right: solid 2px white;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .industry-card-end{
