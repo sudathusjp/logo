@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .sliderimg{
+        width: 100%;
+        height: 500px;
+        object-fit: cover
+      }
+
+      .alice-carousel__dots-item {
+        width: 18px;
+        height: 18px;
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #e0e4fb;
+    }
+}
