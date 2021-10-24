@@ -47,7 +47,7 @@ const Homedesignlogosection = () => {
             </p>
             </section>
             <section className="md:w-1/2">
-            <img src="/images/contact 2 1.png" className="h-96 align-middle" />
+            <img src="/images/Reach with Brandermine.png" className="h-96 align-middle" />
             </section>
         </div>
 
