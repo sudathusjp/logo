@@ -1,3 +1,10 @@
+.contain{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
 .str-text-3{
     color: white;
     text-align: center;

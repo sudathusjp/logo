@@ -7,9 +7,9 @@ import { PencilIcon } from '@heroicons/react/solid'
 
 const Herosection = () => {
     return (
-        <div className="md:px-56 py-20 bg-success overflow-hidden mx:w-auto md:w-2/2">
+        <div className="md:mx-64 py-20 overflow-hidden mx:w-auto md:w-2/2">
         <section className="md:flex">
-            <div className="md:w-1/2 px-10 py-10">
+            <div className="md:w-1/2 py-10">
 
             <Carousel autoPlay infiniteLoop showStatus="" showThumbs="" interval="5000" transitionTime="2000">
                 <div>
