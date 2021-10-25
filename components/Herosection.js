@@ -7,7 +7,7 @@ import { PencilIcon } from '@heroicons/react/solid'
 
 const Herosection = () => {
     return (
-        <div className="px-52 py-20 overflow-hidden mx:w-auto md:w-2/2">
+        <div className="md:px-56 py-20 bg-success overflow-hidden mx:w-auto md:w-2/2">
         <section className="md:flex">
             <div className="md:w-1/2 px-10 py-10">
 
