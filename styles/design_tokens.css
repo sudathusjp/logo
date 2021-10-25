@@ -12,9 +12,23 @@
     padding-bottom: 2.5rem;
 }
 
+.industry-card-middle{
+    background-color: #5022B8;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: solid 2px white;
+    font-weight: 600;
+}
+
 .industry-card-end{
     background-color: #5022B8;
     padding-top: 2rem;
     padding-bottom: 2rem;
     font-weight: 600;
+}
+
+.text-counter{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
 }
