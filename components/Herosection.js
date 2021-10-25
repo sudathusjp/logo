@@ -9,27 +9,7 @@ const Herosection = () => {
     return (
         <div className="md:mx-64 py-20 overflow-hidden mx:w-auto md:w-2/2">
         <section className="md:flex">
-            <div className="md:w-1/2 py-10">
-
-            <Carousel autoPlay infiniteLoop showStatus="" showThumbs="" interval="5000" transitionTime="2000">
-                <div>
-                    <img src="/images/slider/Eriena logo preview.png" />
-                </div>
-                <div>
-                    <img src="/images/slider/LeaFox logo preview.png" />
-                </div>
-                <div>
-                    <img src="/images/slider/Serolin logo preview.png" />
-                </div>
-                <div>
-                    <img src="/images/slider/Spanso Bakers logo preview.png" />
-                </div>
-                <div>
-                    <img src="/images/slider/Youspa logo preview.png" />
-                </div>
-            </Carousel>
-            </div>
-
+            
             <div className="md:w-1/2 py-10 pl-10 pr-10">
             <h1 className="text-5xl text-primary-600 font-semibold text-left pt-16 font-Poppins">
                 Create Stunning logo designs in few clicks
@@ -53,6 +33,26 @@ const Herosection = () => {
             </div>
             </div>
 
+            </div>
+
+            <div className="md:w-1/2 py-10">
+            <Carousel autoPlay infiniteLoop showStatus="" showThumbs="" interval="5000" transitionTime="2000">
+                <div>
+                    <img src="/images/slider/Eriena logo preview.png" />
+                </div>
+                <div>
+                    <img src="/images/slider/LeaFox logo preview.png" />
+                </div>
+                <div>
+                    <img src="/images/slider/Serolin logo preview.png" />
+                </div>
+                <div>
+                    <img src="/images/slider/Spanso Bakers logo preview.png" />
+                </div>
+                <div>
+                    <img src="/images/slider/Youspa logo preview.png" />
+                </div>
+            </Carousel>
             </div>
             
         </section>
