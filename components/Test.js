@@ -4,9 +4,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import { PencilIcon } from '@heroicons/react/solid'
 
-const Herosection = () => {
+const Test = () => {
     return (
-        <div className="contain py-10">
+        <div className="contain py-4">
             <section className="card mr-14">
             <h1 className="text-5xl text-primary-600 font-semibold text-left pt-16 font-Poppins">
                 Create Stunning logo designs in few clicks
@@ -55,4 +55,4 @@ const Herosection = () => {
     )
 }
 
-export default Herosection
+export default Test
