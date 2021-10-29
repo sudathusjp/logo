@@ -3,112 +3,104 @@ import Carousel from 'react-grid-carousel';
 
 const Homebrandsection = () => {
     return (
-        <div className="bg-secondary px-40 py-20">
-            <h1 className="text-center text-4xl font-semibold text-gray-700 font-Poppins">
+        <div className="bg-secondary px-40 pb-20">
+            <h1 className="card-title">
                 Brands with Brandermine
             </h1>
 
             <section>
-            <div className="py-20">
-            <Carousel cols={4} rows={4} gap={5} loop showDots="true">
+            <div>
+            <Carousel cols={5} rows={2} gap={15} loop showDots="true">
             <Carousel.Item>
-                <img src='/images/icon/1.svg' />
+                <img src='/images/icon/logo-01.svg' className="carousel-img" />
             </Carousel.Item>
             <Carousel.Item>
-                <img src='/images/icon/2.svg' />
+                <img src='/images/icon/logo-02.svg' className="carousel-img"/>
+            </Carousel.Item>
+            <Carousel.Item >
+                <img src='/images/icon/logo-03.svg' className="carousel-img" />
+            </Carousel.Item>
+            <Carousel.Item >
+                <img src='/images/icon/logo-04.svg' className="carousel-img" />
+            </Carousel.Item>
+            <Carousel.Item >
+                <img src='/images/icon/logo-05.svg' className="carousel-img" />
+            </Carousel.Item>
+            <Carousel.Item >
+                <img src='/images/icon/logo-06.svg' className="carousel-img" />
+            </Carousel.Item>
+            <Carousel.Item >
+                <img src='/images/icon/logo-07.svg' className="carousel-img" />
+            </Carousel.Item>
+            <Carousel.Item >
+                <img src='/images/icon/logo-08.svg' className="carousel-img"/>
+            </Carousel.Item>
+            <Carousel.Item >
+                <img src='/images/icon/logo-09.svg' className="carousel-img"/>
+            </Carousel.Item>
+            <Carousel.Item >
+                <img src='/images/icon/logo-10.svg' className="carousel-img"/>
             </Carousel.Item>
             <Carousel.Item>
-                <img src='/images/icon/3.svg' />
+                <img src='/images/icon/logo-01.svg' className="carousel-img" />
             </Carousel.Item>
             <Carousel.Item>
-                <img src='/images/icon/4.svg' />
+                <img src='/images/icon/logo-02.svg' className="carousel-img"/>
+            </Carousel.Item>
+            <Carousel.Item >
+                <img src='/images/icon/logo-03.svg' className="carousel-img" />
+            </Carousel.Item>
+            <Carousel.Item >
+                <img src='/images/icon/logo-04.svg' className="carousel-img" />
+            </Carousel.Item>
+            <Carousel.Item >
+                <img src='/images/icon/logo-05.svg' className="carousel-img" />
+            </Carousel.Item>
+            <Carousel.Item >
+                <img src='/images/icon/logo-06.svg' className="carousel-img" />
+            </Carousel.Item>
+            <Carousel.Item >
+                <img src='/images/icon/logo-07.svg' className="carousel-img" />
+            </Carousel.Item>
+            <Carousel.Item >
+                <img src='/images/icon/logo-08.svg' className="carousel-img"/>
+            </Carousel.Item>
+            <Carousel.Item >
+                <img src='/images/icon/logo-09.svg' className="carousel-img"/>
+            </Carousel.Item>
+            <Carousel.Item >
+                <img src='/images/icon/logo-10.svg' className="carousel-img"/>
             </Carousel.Item>
             <Carousel.Item>
-                <img src='/images/icon/5.svg' />
+                <img src='/images/icon/logo-01.svg' className="carousel-img" />
             </Carousel.Item>
             <Carousel.Item>
-                <img src='/images/icon/6.svg' />
+                <img src='/images/icon/logo-02.svg' className="carousel-img"/>
             </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/7.svg' />
+            <Carousel.Item >
+                <img src='/images/icon/logo-03.svg' className="carousel-img" />
             </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/8.svg' />
+            <Carousel.Item >
+                <img src='/images/icon/logo-04.svg' className="carousel-img" />
             </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/9.svg' />
+            <Carousel.Item >
+                <img src='/images/icon/logo-05.svg' className="carousel-img" />
             </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/10.svg' />
+            <Carousel.Item >
+                <img src='/images/icon/logo-06.svg' className="carousel-img" />
             </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/11.svg' />
+            <Carousel.Item >
+                <img src='/images/icon/logo-07.svg' className="carousel-img" />
             </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/12.svg' />
+            <Carousel.Item >
+                <img src='/images/icon/logo-08.svg' className="carousel-img"/>
             </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/13.svg' />
+            <Carousel.Item >
+                <img src='/images/icon/logo-09.svg' className="carousel-img"/>
             </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/14.svg' />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/15.svg' />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/16.svg' />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/1.svg' />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/2.svg' />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/3.svg' />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/4.svg' />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/5.svg' />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/6.svg' />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/7.svg' />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/8.svg' />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/9.svg' />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/10.svg' />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/11.svg' />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/12.svg' />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/13.svg' />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/14.svg' />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/15.svg' />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img src='/images/icon/16.svg' />
-            </Carousel.Item>
-            
-            
+            <Carousel.Item >
+                <img src='/images/icon/logo-10.svg' className="carousel-img"/>
+            </Carousel.Item>   
             </Carousel>
             </div>
             </section>

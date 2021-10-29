@@ -34,7 +34,7 @@ const Herosection = () => {
     </div>
   </div>
 
-        <div className="flex mt-2">
+        <div className="flex mt-2 py-2">
             <p className="trust-point">Excellent</p>
             <img src="/images/stars-5.svg" className="trust-point-icon"  />
             <p className="trust-point">1000+ reviews</p>
@@ -46,7 +46,7 @@ const Herosection = () => {
         </section>
 
             <section className="card slider-card">
-            <Carousel autoPlay infiniteLoop showStatus="" showThumbs="" interval="5000" transitionTime="2000">
+            <Carousel autoPlay infiniteLoop showStatus="" showThumbs="" interval="5000" transitionTime="2000" fade={true}>
                 <div>
                     <img src="/images/slider/Eriena logo preview.png" />
                 </div>
