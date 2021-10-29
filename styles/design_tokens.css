@@ -9,6 +9,10 @@
     padding: 2rem;
   } 
 
+.hero-title-card{
+    width: 528px;
+}  
+
 .hero-title{
     font-family: Montserrat;
 } 
@@ -43,6 +47,7 @@
     .slider-card {
         max-width: 571px;
         height: 508px;
+        background-color: red;
     } 
     
   }

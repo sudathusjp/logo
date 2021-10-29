@@ -8,9 +8,11 @@ const Herosection = () => {
     return (
         <div className="contain py-10">
             <section className="card">
+                <div className="hero-title-card">
             <h1 className="hero-title text-5xl text-primary-600 font-semibold text-left pt-16">
                 Create stunning logo designs in few clicks
             </h1>
+            </div>
             <p className="text-gray-400 text-left py-4 font-medium text-lg font-Poppins">
             High resolution logos in just few clicks. No design experience necessary. Logos are built  by our top class designers. You just have to select best from the choices available.
             </p>
