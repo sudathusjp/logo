@@ -12,10 +12,10 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className='flex items-center flex-wrap bg-white-300 p-3 shadow-md'>
+      <nav className='flex items-center flex-wrap bg-white-300 p-2 shadow-lg'>
       <Link href='/'>
           <a className='inline-flex items-center p-2 mr-4 '>
-            <Image src="/images/branderminelogo.png" width="204" height="32"/>            
+            <Image src="/images/BranderMine logo.svg" width="165" height="31"/>            
           </a>
         </Link>
 
@@ -47,7 +47,7 @@ export const Navbar = () => {
           <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
 
             <Link href='/'>
-              <a className='lg:inline-flex lg:w-auto w-full px-5 py-2 rounded text-gray-600 font-bold items-center justify-center hover:bg-primary hover:text-white'>
+              <a className='nav-menu lg:inline-flex lg:w-auto w-full items-center justify-center'>
               <svg className='hidden lg:inline-flex ml-4' width="15" height="15" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_108:16)">
               <path d="M2.92917 1.39502L4.82283 6.67939H0L2.92917 1.39502Z" fill="#09A3E4"/>
@@ -68,35 +68,35 @@ export const Navbar = () => {
               </a>
             </Link>
             <Link href='/'>
-              <a className='lg:inline-flex lg:w-auto w-full px-5 py-2 rounded text-gray-600 font-bold items-center justify-center hover:bg-primary hover:text-white'>
+              <a className='nav-menu lg:inline-flex lg:w-auto w-full items-center justify-center'>
               Brand Kit
               </a>
             </Link>
             <Link href='/'>
-              <a className='lg:inline-flex lg:w-auto w-full px-5 py-2 rounded text-gray-600 font-bold items-center justify-center hover:bg-primary hover:text-white'>
-                Logo Ideas
+              <a className='nav-menu lg:inline-flex lg:w-auto w-full items-center justify-center'>
+              Logo Ideas
               </a>
             </Link>
             <Link href='/'>
-              <a className='lg:inline-flex lg:w-auto w-full px-5 py-2 rounded text-gray-600 font-bold items-center justify-center hover:bg-primary hover:text-white'>
-                Blog
+              <a className='nav-menu lg:inline-flex lg:w-auto w-full items-center justify-center'>
+              Blog
               </a>
             </Link>
             <Link href='/'>
-              <a className='lg:inline-flex lg:w-auto w-full px-5 py-2 rounded text-gray-600 font-bold items-center justify-center hover:bg-primary hover:text-white'>
-                How It Work
+              <a className='nav-menu lg:inline-flex lg:w-auto w-full items-center justify-center'>
+              How It Work
               </a>
             </Link>
           </div>
 
           <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
           <Link href='/'>
-              <a className='lg:inline-flex lg:w-auto w-full px-5 py-2 mx-2 rounded text-gray-700 font-bold items-center justify-center border-2 hover:bg-primary hover:text-white '>
+              <a className='nav-menu lg:inline-flex lg:w-auto w-full items-center justify-center'>
                 Login
               </a>
             </Link>
             <Link href='/'>
-              <a className='lg:inline-flex lg:w-auto w-full px-5 py-2 rounded text-white bg-primary font-bold items-center justify-center hover:bg-primary hover:text-gray-800 '>
+              <a className='nav-menu-btn lg:inline-flex lg:w-auto w-full rounded items-center justify-center  hover:bg-info '>
                 Signup
               </a>
             </Link>

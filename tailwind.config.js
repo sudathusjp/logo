@@ -18,6 +18,7 @@ module.exports = {
       'success' : '#5CC151',
       'info' : '#03A2FD',
       'light' : '#EFF4FB',
+      'lightborder' : '#CCCCCC',
      })
      
      
