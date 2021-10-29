@@ -8,7 +8,7 @@ const Herosection = () => {
     return (
         <div className="contain py-10">
             <section className="card">
-            <h1 className="text-5xl text-primary-600 font-semibold text-left pt-16">
+            <h1 className="hero-title text-5xl text-primary-600 font-semibold text-left pt-16">
                 Create Stunning logo designs in few clickss
             </h1>
             <p className="text-gray-400 text-left py-4 font-medium text-lg font-Poppins">

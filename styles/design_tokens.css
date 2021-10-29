@@ -7,8 +7,11 @@
     width: 100%;
     height: auto;
     padding: 2rem;
-    font-family: 'Poppins', sans-serif;
   } 
+
+.hero-title{
+    font-family: Montserrat;
+} 
 
 @media only screen and (min-width: 605px) {
     .contain {
