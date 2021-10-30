@@ -1,10 +1,23 @@
 import React from 'react'
 import Image from 'next/image'
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+import Slider from "react-slick"
 import { PencilIcon } from '@heroicons/react/solid'
 
 const Herosection = () => {
+
+    var settings = {
+        dots: true,
+        fade: true,
+        infinite: true,
+        speed: 10,
+        autoplay: true,
+        speed: 92000,
+        autoplaySpeed: 94000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        cssEase: "linear"
+      };
+
     return (
         <div className="contain py-10 pb-16">
             <section className="card">
@@ -41,13 +54,14 @@ const Herosection = () => {
             <img src="/images/stars-1.svg" className="trust-point-icon"  />
             <p className="trust-point">on Trustpilot</p>
         </div>
+        
 
 
         </section>
 
             <section className="card slider-card">
-            <Carousel autoPlay infiniteLoop showStatus="" showThumbs="" interval="5000" transitionTime="2000" fade={true}>
-                <div>
+            <Slider {...settings}>
+            <div>
                     <img src="/images/slider/Eriena logo preview.png" />
                 </div>
                 <div>
@@ -62,7 +76,7 @@ const Herosection = () => {
                 <div>
                     <img src="/images/slider/Youspa logo preview.png" />
                 </div>
-            </Carousel>
+    </Slider>
             </section>
         </div>
     )

@@ -6,6 +6,8 @@ import Homedesignlogosection from '../components/Homedesignlogosection'
 import Homestrengthsection from '../components/Homestrengthsection'
 import { Navbar } from '../components/Navbar'
 import Test from '../components/Test'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export default function Home() {
   return (
