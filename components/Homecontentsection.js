@@ -28,10 +28,10 @@ const Homecontentsection = () => {
             <div className="md:px-32 overflow-hidden mx:w-auto md:w-2/2">
             <section className="md:flex">
                 <div className="md:w-1/2 py-10 pl-10 pr-10">
-                <h1 className="text-3xl text-gray-700 font-semibold text-left pt-16 font-Poppins">
+                <h1 className="card-semi-title">
                 Fully customizable logo with our premium package
                 </h1>
-                <p className="text-gray-400 text-left py-4 font-medium text-lg">
+                <p className="card-description">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
                 </p>
                 <button class="bg-danger text-white font-semibold px-8 py-3 rounded ">Get Start</button>
@@ -50,11 +50,11 @@ const Homecontentsection = () => {
                 <img src="/images/slider/mediakitdesigns.png" />
                 </div> 
 
-                <div className="md:w-1/2 py-10 pl-10 pr-10">
+                <div className="card-semi-title">
                 <h1 className="text-3xl text-gray-700 font-semibold text-left pt-16 font-Poppins">
                 Connect with your audience
                 </h1>
-                <p className="text-gray-400 text-left py-4 font-medium text-lg">
+                <p className="card-description">
                 Download high quality logo optimised for business cards, letter heads, social media and more
                 </p>
                 <button class="bg-success text-white font-semibold px-8 py-3 rounded ">Get Start</button>
@@ -65,10 +65,10 @@ const Homecontentsection = () => {
             <div className="md:px-32 overflow-hidden mx:w-auto md:w-2/2">
             <section className="md:flex">
                 <div className="md:w-1/2 py-10 pl-10 pr-10">
-                <h1 className="text-3xl text-gray-700 font-semibold text-left pt-16 font-Poppins">
+                <h1 className="card-semi-title">
                 Grow your website. Get going
                 </h1>
-                <p className="text-gray-400 text-left py-4 font-medium text-lg">
+                <p className="card-description">
                 Create your business website with Brandermine and Market to the right audience. Our personal tech team will make it SEO friendly.
                 </p>
                 <button class="bg-info text-white font-semibold px-8 py-3 rounded ">Get Start</button>

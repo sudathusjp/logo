@@ -37,7 +37,7 @@ const Herosection = () => {
     <div class="relative mb-3 w-full flex flex-wrap items-stretch">
       <input type="text" class="search-input relative px-2 w-full h-full bg-white rounded  border-2 border-gray-300  placeholder-gray-400" placeholder="Enter your brand name" />
       <span class="absolute right-0 z-10 py-1 pr-2 w-8 h-full leading-snug bg-transparent rounded text-base font-normal text-gray-400 text-center flex items-center justify-center">
-        <PencilIcon />
+      <img src="/images/icon/pen.svg"  />
       </span>
     </div>
     </div>

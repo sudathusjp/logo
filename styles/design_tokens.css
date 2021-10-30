@@ -112,6 +112,24 @@
     padding-top: 36px;
 }
 
+.kVtMtA {
+    position: absolute;
+    top: calc(50% - 17.5px);
+    height: 35px;
+    width: 35px;
+    background: #f01313;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 0 #0009;
+    z-index: 10;
+    cursor: pointer;
+    font-size: 10px;
+    opacity: 0.6;
+    -webkit-transition: opacity 0.25s;
+    transition: opacity 0.25s;
+    left: 5px;
+    right: initial;
+}
+
 @media only screen and (min-width: 605px) {
     .contain {
         width: 90vw;

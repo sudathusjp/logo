@@ -3,12 +3,12 @@ import { UsersIcon } from '@heroicons/react/solid'
 
 const Homestrengthsection = () => {
     return (
-        <div className="bg-primary px-20 py-20">
+        <div className="bg-primary px-20">
             <section>
-                <h1 className="text-white font-bold text-3xl text-center font-Poppins">Our strengths</h1>
+                <h1 className="card-title">Our strengths</h1>
             </section>
             <section>
-            <div className="grid grid-cols-4 md:px-20 py-20">
+            <div className="grid grid-cols-4 md:px-20 pb-16">
             <div className="industry-card">
                 <section class="flex justify-center">
                 <img  src="/images/industry/user.svg" className="h-9" />
