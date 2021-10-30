@@ -1,0 +1,49 @@
+.blog-card{
+    width: 270px;
+    margin: 1rem;
+}
+
+.blog-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 28px;
+    color: #404145;
+
+}
+
+.blog-description{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: #7A7D85;
+}
+
+.blog-readmore{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5022B8;
+    padding-top: 20px;
+
+}
+
+.logomaker-card{
+    padding-left: 150px;
+    background: #5022B8;
+}
+
+.card-style-1{
+    width: 509px;
+    margin: 60px;
+}
+
+.text-style-1{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
