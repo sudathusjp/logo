@@ -1,14 +1,22 @@
 /* large devices */
 @media (min-width: 1200px) {
     .container {
-       max-width: 1000px;
+       max-width: 1140px;
        background-color: red;
      }
   }
   /* extra large devices */
   @media screen and (min-width: 1800px) {
     .container {
-      max-width: 1000px;
+      max-width: 1140px;
+      background-color: blue;
+    }
+  }
+
+  /* extra large devices */
+  @media screen and (max-width: 1800px) {
+    .container {
+      max-width: 1140px;
       background-color: blue;
     }
   }
