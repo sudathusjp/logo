@@ -48,7 +48,7 @@ export const Navbar = () => {
 
             <Link href='/'>
               <a className='nav-menu lg:inline-flex lg:w-auto w-full items-center justify-center'>
-              <img src="/images/premium logos icon.svg" className="w-5 mr-3" /> Premium Logo
+              <img src="/images/premium logos icon.svg" className="w-5 h-4 mr-3" /> Premium Logo
               </a>
             </Link>
             <Link href='/'>
