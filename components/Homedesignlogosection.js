@@ -41,7 +41,7 @@ const Homedesignlogosection = () => {
 
 
 
-            <div className="container py-12">
+            <div className="container py-12 pb-20">
             <div className="row">            
                 <div class="col-12 col-lg-6 col-md-6  col-sm-6">
                     <h1 className="card-title-2">
@@ -53,13 +53,13 @@ const Homedesignlogosection = () => {
                     <button class="my-3 btn-1">
                         Contact Us
                     </button>
-                    <p className="card-description">
+                    <p className="card-description-2">
                         Get started with free tools, or get more with our premium software.
                     </p>
                 </div>
                 
-                <div className="col-12 col-lg-6 col-md-6  col-sm-6 d-flex justify-content-center">
-                    <img src="/images/Reach with Brandermine.png" />
+                <div className="col-12 col-lg-6 col-md-6  col-sm-6 d-flex justify-content-end">
+                    <img src="/images/Reach with Brandermine.png" className="reach-img" />
                 </div>
             </div>
             </div>
@@ -67,7 +67,7 @@ const Homedesignlogosection = () => {
 
 
             <div className="brand-container">
-            <div className="container py-12">
+            <div className="container p-12">
 
             <h1 className="card-title">
             Browse logo ideas by industry

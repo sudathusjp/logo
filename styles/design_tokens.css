@@ -125,7 +125,7 @@
     color: #404145;
     text-align: left;
     padding-top: 51px;
-    padding-bottom: 36px;
+    padding-bottom: 6px;
 }
 
 .card-title-white{
@@ -146,6 +146,14 @@
 .card-description{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    font-weight: 400;
+    color: #4B4A4A;
+    line-height: 29px;
+}
+
+.card-description-2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
     font-weight: 400;
     color: #4B4A4A;
     line-height: 29px;
@@ -214,14 +222,22 @@
 }
 
 .industry-card{
+    background-color: #5022B8;
+    width: 98%;
+    margin : 1%;
+    height: 150px;
+    padding-top: 40px;
+}
+
+.industry-cardsss{
     font-weight: 600;
     border-right: solid 2px white;
+    background-color: #5022B8;
+    height: 160px;
+    width: 100%;  
+    margin-bottom: 10px;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-    background-color: #5022B8;
-    height: 179px;
-    max-width: 268px;    
-    margin-bottom: 17px;
 }
 
 
@@ -314,12 +330,15 @@
     margin-right: 8px;
 }
 
-
-
 @media (max-width: 575px){
     .input-text-1{
         width: 100%;
     }
+}
+
+.reach-img{
+    width: 350px;
+    height: 400px;
 }
 
 .nav-menu{
