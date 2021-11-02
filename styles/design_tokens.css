@@ -14,7 +14,7 @@
   }
 
   /* extra large devices */
-  @media screen and (max-width: 1800px) {
+  @media screen and (max-width: 1200px) {
     .container {
       max-width: 1140px;
       width: 1140px;
