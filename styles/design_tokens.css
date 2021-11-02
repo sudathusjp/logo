@@ -1,6 +1,17 @@
-.container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1140px;
-}
+/* large devices */
+@media (min-width: 1200px) {
+    .container {
+       max-width: 1000px;
+       background-color: red;
+     }
+  }
+  /* extra large devices */
+  @media screen and (min-width: 1800px) {
+    .container {
+      max-width: 1000px;
+      background-color: blue;
+    }
+  }
 
 .slider-card {
     max-width: 571px;

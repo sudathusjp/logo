@@ -48,23 +48,7 @@ export const Navbar = () => {
 
             <Link href='/'>
               <a className='nav-menu lg:inline-flex lg:w-auto w-full items-center justify-center'>
-              <svg className='hidden lg:inline-flex ml-4' width="15" height="15" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0_108:16)">
-              <path d="M2.92917 1.39502L4.82283 6.67939H0L2.92917 1.39502Z" fill="#09A3E4"/>
-              <path d="M8.75587 1.4434L5.77762 5.75323L4.01379 0.839355H8.34262L8.75587 1.4434Z" fill="#09A3E4"/>
-              <path d="M12.3888 6.67911H6.61121L9.5 2.51416L12.3888 6.67911Z" fill="#09A3E4"/>
-              <path d="M14.9863 0.839355L13.2304 5.75323L10.2442 1.4434L10.6575 0.839355H14.9863Z" fill="#09A3E4"/>
-              <path d="M19 6.67939H14.1851L16.0787 1.39502L19 6.67939Z" fill="#09A3E4"/>
-              <path d="M8.95768 18.2559L8.81202 18.0785L0.178101 7.88818H5.25189L8.85239 17.9574L8.95768 18.2559Z" fill="#09A3E4"/>
-              <path d="M12.4616 7.88818L9.50001 16.1611L6.53839 7.88818H12.4616Z" fill="#09A3E4"/>
-              <path d="M18.8219 7.88818L10.188 18.0785L10.0423 18.2479L10.1389 17.9661L13.7481 7.88818H18.8219Z" fill="#09A3E4"/>
-              </g>
-              <defs>
-              <clipPath id="clip0_108:16">
-              <rect width="19" height="19" fill="white"/>
-              </clipPath>
-              </defs>
-              </svg> Premium Logo
+              <img src="/images/premium logos icon.svg" className="w-5 mr-3" /> Premium Logo
               </a>
             </Link>
             <Link href='/'>
