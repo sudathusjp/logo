@@ -16,8 +16,8 @@ const Homebrandsection = () => {
       )      
 
     return (
-        <div className="brand-container">
-            <div className="container py-12">
+        <div className="brand-container pb-20">
+            <div className="container">
 
             <h1 className="card-title">
                 Brands with Brandermine

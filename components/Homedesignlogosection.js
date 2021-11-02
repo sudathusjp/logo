@@ -6,13 +6,13 @@ const Homedesignlogosection = () => {
     return (
         <div className="">
 
-        <div className="container py-12">
-            <h1 className="card-title">Design your Dream logo here</h1>
+        <div className="container py-24 pb-32">
+            <h1 className="card-title">Design your dream logo here</h1>
 
             <div className="row">            
                 <div class="col-12 col-lg-12 d-sm-flex d-md-flex d-lg-flex justify-content-center">
                 <input type="text"  placeholder="Enter your company name" className="input-text-1" />
-                <button class="btn-1">Get Start</button>
+                <button class="btn-1">Get Started</button>
                 </div>
             </div>
 
@@ -20,9 +20,9 @@ const Homedesignlogosection = () => {
             <div className="col-12 col-lg-12 d-flex justify-content-center">
                     <p className="trust-point">Excellent</p>
                     <img src="/images/stars-5.svg" className="trust-point-icon"  />
-                    <p className="trust-point">1000+ reviews</p>
+                    <p className="trust-point pl-2"> 1000+ reviews on</p>
                     <img src="/images/stars-1.svg" className="trust-point-icon"  />
-                    <p className="trust-point">on Trustpilot</p>
+                    <p className="trust-point">Trustpilot</p>
             </div>
             </div>
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Homecontentsection = () => {
     return (
-        <div className="container py-12">
+        <div className="container pb-20">
             
             <h1 className="card-title">
                 One stop for everything you need
@@ -23,7 +23,7 @@ const Homecontentsection = () => {
                     <p className="card-description py-2">
                     Endless design possibilities. Customize your logo from A to Z choosing from thousands of templates, color combination and detailing discussing with our design team.
                     </p>
-                    <button class="btn-sm-primary">Get Start</button>
+                    <button class="btn-sm-primary">Get Started</button>
                 </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@ const Homecontentsection = () => {
                     <p className="card-description py-2">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
                 </p>
-                    <button class="btn-sm-danger">Get Start</button>
+                    <button class="btn-sm-danger">Get Started</button>
                 </div>
                 </div>
 
@@ -65,7 +65,7 @@ const Homecontentsection = () => {
                     <p className="card-description py-2">
                     Download high quality logo optimised for business cards, letter heads, social media and more
                     </p>
-                    <button class="btn-sm-success">Get Start</button>
+                    <button class="btn-sm-success">Get Started</button>
                 </div>
                 </div>
             </div>
@@ -80,7 +80,7 @@ const Homecontentsection = () => {
                     <p className="card-description py-2">
                     Create your business website with Brandermine and Market to the right audience. Our personal tech team will make it SEO friendly.
                     </p>
-                    <button class="btn-sm-info">Get Start</button>
+                    <button class="btn-sm-info">Get Started</button>
                 </div>
                 </div>
 

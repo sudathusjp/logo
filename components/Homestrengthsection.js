@@ -9,91 +9,96 @@ const Homestrengthsection = () => {
         <div className="row">
             <div className="col-3 col-md-3 col-lg-3 strength-card">
                 <section class="flex justify-center">
-                    <img  src="/images/industry/user.svg" className="h-9" />
+                    <img  src="/images/strength/rating 1.svg" className="strength-icon" />
+                </section>
+                <section className="d-flex justify-content-center">
+                    <p className="text-counter">10k</p>
+                    <p className="text-counter-2">+</p>
                 </section>
                 <section>
-                    <p className="text-counter">10k+</p>
-                </section>
-                <section>
-                    <p class="text-white text-center">Happy Customers</p>
+                    <p class="text-counter-3">Happy Customers</p>
                 </section>
             </div>
             <div className="col-3 col-md-3 col-lg-3 strength-card">
                 <section class="flex justify-center">
-                    <img  src="/images/industry/user.svg" className="h-9" />
+                    <img  src="/images/strength/paint-palette 1.svg" className="strength-icon" />
+                </section>
+                <section className="d-flex justify-content-center">
+                    <p className="text-counter">20k</p>
+                    <p className="text-counter-2">+</p>
                 </section>
                 <section>
-                    <p className="text-counter">20K+</p>
-                </section>
-                <section>
-                    <p class="text-white text-center">Logos Genarated</p>
+                    <p class="text-counter-3">Logos Genarated</p>
                 </section>
             </div>
             <div className="col-3 col-md-3 col-lg-3 strength-card">
                 <section class="flex justify-center">
-                    <img  src="/images/industry/user.svg" className="h-9" />
+                <img  src="/images/strength/diamond (1) 2.svg" className="strength-icon" />
                 </section>
-                <section>
+                <section className="d-flex justify-content-center">
                     <p className="text-counter">6</p>
                 </section>
                 <section>
-                    <p class="text-white text-center">Years of Experience</p>
+                    <p class="text-counter-3">Years of Experience</p>
                 </section>
             </div>
             <div className="col-3 col-md-3 col-lg-3 strength-card-end">
                 <section class="flex justify-center">
-                    <img  src="/images/industry/user.svg" className="h-9" />
+                <img  src="/images/strength/handshake 1.svg" className="strength-icon" />
                 </section>
-                <section>
+                <section className="d-flex justify-content-center">
                     <p className="text-counter">100%</p>
                 </section>
                 <section>
-                    <p class="text-white text-center">Customer Satisfaction</p>
+                    <p class="text-counter-3">Customer Satisfaction</p>
                 </section>
             </div>
 
-            <div className="col-3 col-md-3 col-lg-3 strength-card border-t-2">
+            <div className="col-3 col-md-3 col-lg-3 strength-card strength-card-top-b">
                 <section class="flex justify-center">
-                    <img  src="/images/industry/user.svg" className="h-9" />
+                <img  src="/images/strength/clock 1.svg" className="strength-icon" />
                 </section>
-                <section>
+                <section className="d-flex justify-content-center">
                     <p className="text-counter">27/7</p>
                 </section>
                 <section>
-                    <p class="text-white text-center">Support</p>
+                    <p class="text-counter-3">Support</p>
                 </section>
             </div>
-            <div className="col-3 col-md-3 col-lg-3 strength-card border-t-2">
+            <div className="col-3 col-md-3 col-lg-3 strength-card strength-card-top-b">
                 <section class="flex justify-center">
-                    <img  src="/images/industry/user.svg" className="h-9" />
+                <img  src="/images/strength/graphic-design 1.svg" className="strength-icon" />
+                </section>
+                <section className="d-flex justify-content-center">
+                    <p className="text-counter">50</p>
+                    <p className="text-counter-2">+</p>
                 </section>
                 <section>
-                    <p className="text-counter">50+</p>
-                </section>
-                <section>
-                    <p class="text-white text-center">Professional Graphic Designers</p>
+                    <p class="text-counter-3">Professional Graphic <br /> Designers</p>
                 </section>
             </div>
-            <div className="col-3 col-md-3 col-lg-3 strength-card border-t-2">
+            <div className="col-3 col-md-3 col-lg-3 strength-card strength-card-top-b">
                 <section class="flex justify-center">
-                    <img  src="/images/industry/user.svg" className="h-9" />
+                    <img  src="/images/strength/browser 1.svg" className="strength-icon" />
+                </section>
+                <section className="d-flex justify-content-center">
+                    <p className="text-counter">20</p>
+                    <p className="text-counter-2">+</p>
                 </section>
                 <section>
-                    <p className="text-counter">20+</p>
-                </section>
-                <section>
-                    <p class="text-white text-center">Web Developers</p>
+                    <p class="text-counter-3">Web Developers</p>
                 </section>
             </div>
-            <div className="col-3 col-md-3 col-lg-3 strength-card-end border-t-2">
+            <div className="col-3 col-md-3 col-lg-3 strength-card-end strength-card-top-b">
                 <section class="flex justify-center">
-                    <img  src="/images/industry/user.svg" className="h-9" />
+                <img  src="/images/strength/globe 1.svg" className="h-9" />
+                </section>
+                <section className="d-flex justify-content-center">
+                    <p className="text-counter">120</p>
+                    <p className="text-counter-2">+</p>
                 </section>
                 <section>
-                    <p className="text-counter">120+</p>
-                </section>
-                <section>
-                    <p class="text-white text-center">Countries Covered</p>
+                    <p class="text-counter-3">Countries Covered</p>
                 </section>
             </div>
         </div>

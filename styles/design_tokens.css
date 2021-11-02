@@ -37,6 +37,11 @@
 
 .hero-title{
     font-family: Montserrat;
+    color: #5B2FBC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 55px;
 } 
 
 .hero-description{
@@ -44,7 +49,8 @@
     font-family: 'Poppins', sans-serif;
     color: #797979;
     padding-top: 27px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
+    line-height: 32px;
 }
 
 .hero-btn-card{
@@ -68,7 +74,7 @@
     font-weight: 600;
     padding-top: 14px;
     padding-bottom: 14px;
-    padding-left: 16px;
+    padding-left: 66px;
     border: 2px solid #CCCCCC;
 }
 
@@ -79,6 +85,7 @@
     font-weight: 600;
     width: 169px;
     height: 56px;
+    margin-left: 8px;
 }
 
 .search-btn:hover {
@@ -94,9 +101,7 @@
 
 .trust-point-icon{
     height: 22px;
-    padding-left: 10px;
-    padding-right: 10px;
-    
+    padding-left: 10px;    
 }
 
 .brand-container{
@@ -198,6 +203,10 @@
     background: linear-gradient(81.66deg, #6825FF -21.43%, #0F1253 147.94%);
 }
 
+.card-div-4{
+    max-width: 528px;
+}
+
 .str-text-3{
     color: white;
     text-align: center;
@@ -218,7 +227,7 @@
 
 .strength-card{
     font-weight: 600;
-    border-right: solid 2px white;
+    border-right: solid 0.1rem white;
     padding-top: 2.5rem;
     padding-bottom: 10rem;
     height: 179px;
@@ -233,7 +242,7 @@
 .strength-card-middle{
     padding-top: 2rem;
     padding-bottom: 2rem;
-    border-top: solid 2px white;
+    border-top: solid 0.1rem white;
     font-weight: 600;
 }
 
@@ -242,7 +251,7 @@
 }
 
 .strength-card-end{
-    padding-top: 2rem;
+    padding-top: 2.5rem;
     padding-bottom: 2rem;
     font-weight: 600;
     margin-bottom: -18px;
@@ -252,18 +261,49 @@
     margin-bottom: 0px;
 }
 
+.strength-card-top-b{
+    border-top: solid 0.1rem white;
+}
+
+.strength-icon{
+    width: 40px;
+    height: 40px;
+}
+
 .text-counter{
     color: white;
-    font-size: 3rem;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.text-counter-2{
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    padding-top: 0.5rem;
+}
+
+.text-counter-3{
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: -0.7rem;
+    line-height: 20px;
 }
 
 .input-text-1{
     height: 55px;
     width: 380px;
-    padding-left: 10px;
-    border-width: 1px;
+    padding-left: 25px;
+    border-width: 2px;
     border-radius: 10px;
+    border-color: #CCCCCC;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -273,6 +313,8 @@
     text-align: left;
     margin-right: 8px;
 }
+
+
 
 @media (max-width: 575px){
     .input-text-1{
