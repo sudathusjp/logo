@@ -1,3 +1,7 @@
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px;
+}
+
 .slider-card {
     max-width: 571px;
     height: 508px;
