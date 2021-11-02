@@ -1,16 +1,33 @@
-import React from 'react';
+import React from 'react'
 import Carousel from 'react-grid-carousel';
 
 const Homebrandsection = () => {
+
+    const MyDot = ({ isActive }) => (
+        <span
+          style={{
+            display: 'inline-block',
+            height: '10px',
+            width: '10px',
+            background: '#DDDDDD',
+            borderRadius: '5px'
+          }}
+        ></span>
+      )      
+
     return (
-        <div className="bg-secondary px-40 pb-20">
+        <div className="brand-container">
+            <div className="container py-12">
+
             <h1 className="card-title">
                 Brands with Brandermine
             </h1>
 
-            <section>
-            <div>
-            <Carousel cols={5} rows={2} gap={15} loop showDots="true">
+
+            <div className="row">
+            <div className="col-12 col-md-12 col-lg-12">
+
+            <Carousel dot={MyDot} cols={5} rows={2} gap={15} loop showDots="true">
             <Carousel.Item>
                 <img src='/images/icon/logo-01.svg' className="carousel-img" />
             </Carousel.Item>
@@ -102,9 +119,11 @@ const Homebrandsection = () => {
                 <img src='/images/icon/logo-10.svg' className="carousel-img"/>
             </Carousel.Item>   
             </Carousel>
-            </div>
-            </section>
 
+            </div>
+            </div>
+
+        </div>
         </div>
     )
 }

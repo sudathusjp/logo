@@ -1,15 +1,12 @@
-.contain{
-    display: flex;
-    flex-direction: column;
-}
+.slider-card {
+    max-width: 571px;
+    height: 508px;
+    margin:0 auto;
 
-.card {
-    width: 100%;
-    height: auto;
   } 
 
 .hero-title-card{
-    width: 528px;
+    max-width: 528px;
 }  
 
 .hero-title{
@@ -46,6 +43,7 @@
     padding-top: 14px;
     padding-bottom: 14px;
     padding-left: 16px;
+    border: 2px solid #CCCCCC;
 }
 
 .search-btn{
@@ -53,6 +51,8 @@
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 600;
+    width: 169px;
+    height: 56px;
 }
 
 .search-btn:hover {
@@ -73,12 +73,26 @@
     
 }
 
+.brand-container{
+    background: #EFF4FB;
+}
+
 .card-title{
     font-family: Montserrat;
     font-size: 36px;
     font-weight: 600;
-    color: #2B3D4F;
+    color: #404145;
     text-align: center;
+    padding-top: 51px;
+    padding-bottom: 36px;
+}
+
+.card-title-2{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    color: #404145;
+    text-align: left;
     padding-top: 51px;
     padding-bottom: 36px;
 }
@@ -95,6 +109,7 @@
     font-size: 30px;
     font-weight: 600;
     color: #404145;
+    line-height: 36px;
 }
 
 .card-description{
@@ -102,6 +117,7 @@
     font-size: 16px;
     font-weight: 400;
     color: #4B4A4A;
+    line-height: 29px;
 }
 
 .carousel-img{
@@ -139,42 +155,22 @@
     right: initial;
 }
 
-@media only screen and (min-width: 605px) {
-    .contain {
-        width: 90vw;
-        margin: auto;
-        flex-direction: column;
-    }
-    .card {
-        
-    }
-  }
+.card-div-1{
+    height: 352px;
+    max-width: 510px;
+    left: 384px;
+    top: 1587px;
+    border-radius: 0px;
+}
 
-  @media only screen and (min-width: 950px) {
-    .contain {
-        width: 90vw;
-        margin: auto;
-        flex-direction: row;
-    }
-    
-  }
+.card-div-2{
+    max-width: 490px;
+    padding-top: 50px;
+}
 
-  @media only screen and (min-width: 1200px) {
-    .contain {
-        width: 1140px;
-        margin: auto;
-        flex-direction: row;
-    }
-
-    .slider-card {
-        max-width: 571px;
-        height: 508px;
-    } 
-    
-  }
-
-  
-
+.card-div-3{
+    background: linear-gradient(81.66deg, #6825FF -21.43%, #0F1253 147.94%);
+}
 
 .str-text-3{
     color: white;
@@ -183,32 +179,79 @@
 }
 
 .industry-card{
-    background-color: #5022B8;
     font-weight: 600;
     border-right: solid 2px white;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+    background-color: #5022B8;
+    height: 179px;
+    max-width: 268px;    
+    margin-bottom: 17px;
 }
 
-.industry-card-middle{
-    background-color: #5022B8;
+
+.strength-card{
+    font-weight: 600;
+    border-right: solid 2px white;
+    padding-top: 2.5rem;
+    padding-bottom: 10rem;
+    height: 179px;
+    width: 268px;
+    margin-bottom: -2px;
+}
+
+.strength-card  p{
+    margin-bottom: 0px;
+}
+
+.strength-card-middle{
     padding-top: 2rem;
     padding-bottom: 2rem;
     border-top: solid 2px white;
     font-weight: 600;
 }
 
-.industry-card-end{
-    background-color: #5022B8;
+.strength-card-middle  p{
+    margin-bottom: 0px;
+}
+
+.strength-card-end{
     padding-top: 2rem;
     padding-bottom: 2rem;
     font-weight: 600;
+    margin-bottom: -18px;
+}
+
+.strength-card-end  p{
+    margin-bottom: 0px;
 }
 
 .text-counter{
     color: white;
     font-size: 3rem;
     text-align: center;
+}
+
+.input-text-1{
+    height: 55px;
+    width: 380px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 8px;
+}
+
+@media (max-width: 575px){
+    .input-text-1{
+        width: 100%;
+    }
 }
 
 .nav-menu{

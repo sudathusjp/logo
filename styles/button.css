@@ -1,0 +1,87 @@
+.btn-sm-primary{
+    background: #5022B8;
+    color: #fff;
+    height: 54px;
+    width: 169px;
+    left: 1044px;
+    top: 1827px;
+    border-radius: 10px;
+    padding: 14px, 25px, 14px, 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.btn-sm-danger{
+    background: #F24040;
+    color: #fff;
+    height: 54px;
+    width: 169px;
+    left: 1044px;
+    top: 1827px;
+    border-radius: 10px;
+    padding: 14px, 25px, 14px, 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.btn-sm-success{
+    background: #5CC151;
+    color: #fff;
+    height: 54px;
+    width: 169px;
+    left: 1044px;
+    top: 1827px;
+    border-radius: 10px;
+    padding: 14px, 25px, 14px, 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.btn-sm-info{
+    background: #03A2FD;
+    color: #fff;
+    height: 54px;
+    width: 169px;
+    left: 1044px;
+    top: 1827px;
+    border-radius: 10px;
+    padding: 14px, 25px, 14px, 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.btn-1{
+    height: 55px;
+    width: 179px;
+    left: 1058px;
+    top: 4294px;
+    border-radius: 10px;
+    background: #5022B8;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 575px){
+    .btn-1{
+        width: 100%;
+        margin-top: 5px;
+    }
+}

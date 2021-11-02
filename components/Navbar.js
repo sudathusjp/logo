@@ -12,7 +12,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className='flex items-center flex-wrap bg-white-300 p-2 shadow-lg'>
+      <nav className='flex items-center flex-wrap bg-white-300 p-2 shadow-md'>
       <Link href='/'>
           <a className='inline-flex items-center p-2 mr-4 '>
             <Image src="/images/BranderMine logo.svg" width="165" height="31"/>            
