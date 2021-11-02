@@ -9,10 +9,10 @@ const Herosection = () => {
         dots: true,
         fade: true,
         infinite: true,
-        speed: 10,
+        speed: 5,
         autoplay: true,
-        speed: 9000,
-        autoplaySpeed: 9000,
+        speed: 5000,
+        autoplaySpeed: 5000,
         slidesToShow: 1,
         slidesToScroll: 1,
         cssEase: "linear"
