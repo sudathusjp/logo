@@ -2,14 +2,12 @@
 @media (min-width: 1200px) {
     .container {
        max-width: 1140px;
-       background-color: red;
      }
   }
   /* extra large devices */
   @media screen and (min-width: 1800px) {
     .container {
       max-width: 1140px;
-      background-color: blue;
     }
   }
 
@@ -17,17 +15,9 @@
   @media screen and (max-width: 1200px) {
     .container {
       max-width: 1140px;
-      width: 1140px;
-      background-color: yellow;
     }
   }
-
-  @media (min-width: 1400px){
-.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    max-width: 1140px;
-    background-color: green;
-}
-  }
+  
 
 .slider-card {
     max-width: 571px;
