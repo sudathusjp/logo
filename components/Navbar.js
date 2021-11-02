@@ -12,7 +12,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className='flex items-center flex-wrap bg-white-300 p-2 shadow-md'>
+      <nav className='navbar flex items-center flex-wrap bg-white-300 p-2'>
       <Link href='/'>
           <a className='inline-flex items-center p-2 mr-4 '>
             <Image src="/images/BranderMine logo.svg" width="165" height="31"/>            
@@ -81,7 +81,7 @@ export const Navbar = () => {
             </Link>
             <Link href='/'>
               <a className='nav-menu-btn lg:inline-flex lg:w-auto w-full rounded items-center justify-center  hover:bg-info '>
-                Signup
+                Sign up
               </a>
             </Link>
             </div>
