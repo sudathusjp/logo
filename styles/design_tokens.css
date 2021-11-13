@@ -215,6 +215,31 @@
     max-width: 528px;
 }
 
+.card-div-5{
+    max-width: 464px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.card-div-6{
+    max-width: 515px;
+    padding: 50px 0 100px 0;
+}
+
+.card-div-7{
+    max-height: 549px;
+    max-width: 549px;
+    position:relative;
+}
+
+.banner-1{
+    display: block;
+margin-left: auto;
+margin-right: auto ;
+margin-top: 3rem;
+   
+}
+
 .str-text-3{
     color: white;
     text-align: center;
@@ -320,7 +345,7 @@
     border-width: 2px;
     border-radius: 10px;
     border-color: #CCCCCC;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -334,6 +359,23 @@
     .input-text-1{
         width: 100%;
     }
+}
+
+.input1{
+    height: 42px;
+    width: 100%;
+    max-width: 515px;
+    border-radius: 5px;
+    border: 1px solid #CCCCCC;
+    padding-left: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 
 .reach-img{
@@ -367,4 +409,72 @@
 .nav-menu-btn:hover {
     background-color: #6b42ca; /* Green */
   }
-  
+ 
+ .step-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B1B1B1;  
+    margin-bottom: 2px;  
+ } 
+
+ .step-active{
+    min-height: 4px;
+    width: 67px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px; 
+    background: #00B728;   
+    margin-right: 2px;
+ }
+ .step-inactive{
+    min-height: 4px;
+    width: 67px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px; 
+    background: #DDDDDD; 
+ }
+
+ .back-arrow{
+    color: #B1B1B1;
+    height: 55px;
+
+ }
+
+ .roundhint{
+    height: 19px;
+    width: 19px;
+    background: #404145;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-top: 2px;
+    margin-left: 12px;
+    font-size: 13px;
+ }
+
+ .txt1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #404145;   
+ }
+
+ .txt2{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #404145;  
+ }

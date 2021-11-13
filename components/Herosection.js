@@ -32,20 +32,22 @@ const Herosection = () => {
                 </p>
                 </div>
 
+
+                
+
+                <form action="collecting-data" method="GET">
                 <div className="row card-div-4">
-                    <div className="col-md-12 d-flex justify-content-center">
+                    <div className="col-md-12 d-flex justify-content-center">                    
                     <div class="relative  flex flex-wrap items-stretch">
-                <input type="text" className="search-input relative px-3 w-full h-full bg-white rounded  placeholder-gray-400" placeholder="Enter your brand name" />
+                <input type="text" name="brand_name" className="search-input relative px-3 w-full h-full bg-white rounded  placeholder-gray-400" placeholder="Enter your brand name" />
                 <span class="absolute right-0 z-10 py-1 pr-2 w-8 h-full leading-snug bg-transparent rounded text-base font-normal text-gray-400 text-center flex items-center justify-center">
                 <img src="/images/icon/pen.svg"  />
                 </span>
                 </div>
-                <button className="search-btn text-white rounded">Genarate Logo</button>
-                    </div>
-
-
-                    
+                <button type="submit" className="search-btn text-white rounded">Genarate Logo</button>                
+                    </div>     
                 </div>
+                </form>
 
                 <div className="flex mt-2 py-2">
                     <p className="trust-point">Excellent</p>
