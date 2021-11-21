@@ -27,7 +27,7 @@ const Logomakingstep02 = () => {
                    <div className="roundhint">?</div>
                    </div>
 
-                   <form action="collecting-data-step-2" method="GET">
+                   <form action="collecting-data-step-3" method="GET">
 
                    <input type="text" name="brand_name" className="input1" placeholder="For example brandermine" defaultValue={brand_name} />
                 
