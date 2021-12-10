@@ -594,3 +594,144 @@ margin-top: 3rem;
     padding-right: 5px; 
     text-decoration: none;
  }
+
+ .loginModal {
+    position: relative;
+    max-width: 546px;
+    height: auto;
+  }
+
+ .model-login-card{
+    padding: 20px;;  
+ }
+
+ .social-login-button{
+    height: 58px;
+    width: 105px;
+    left: 94.052734375px;
+    top: 182.068359375px;
+    border: #DADADA 1px solid;
+    border-radius: 5px;
+    margin: 10px;    
+    margin-top: 15px;
+ }
+
+ .social-login-button:hover {
+    background: #eeecec;
+}
+
+ .social-icon{
+    height: 30px;
+    width: 30px;
+    margin: auto;
+ }
+
+ .line{
+    height: 0px;
+    width: 118px;
+    left: 330.052734375px;
+    top: 266.06884765625px;
+    border-radius: 0px;
+    background-color: #404145; 
+    margin: 10px;   
+ }
+
+ .modal-txt1{
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;    
+ }
+
+ .modal-txt2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    max-width: 304.77px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    color: #404145;  
+    margin-top: 0.7rem;  
+    opacity: 0.6;
+ }
+
+ .modal-txt3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center; 
+    color: #404145;  
+ }
+
+ .modal-txt4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    opacity: 0.5;
+ }
+
+ .modal-txt5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #03014C;
+    text-decoration: none;
+ }
+
+ .modal-input{
+    font-family: 'Open Sans', sans-serif;
+    border: 0.8327px solid #03014C;
+ }
+
+ .login-input{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 0.9;
+    border: 0.8327px solid #DADADA;
+    box-sizing: border-box;
+    border-radius: 8.327px;
+}
+
+.modal-btn{
+    height: 65px;
+    width: 100%;
+    left: 70px;
+    top: 522.56640625px;
+    border-radius: 8.326995849609375px;
+    background: #5022B8;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    color: #fff;
+}
+
+.modal-btn:hover {
+    background: #6b39dd;
+}
+
+
+.modal-close-btn {
+    display: none;
+}
